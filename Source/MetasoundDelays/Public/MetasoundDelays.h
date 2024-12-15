@@ -3,7 +3,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleInterface.h"
 
-class FMetasoundBranchesModule : public IModuleInterface
+class FMetasoundDelaysModule : public IModuleInterface
 {
 public:
     virtual void StartupModule() override;
