@@ -6,6 +6,10 @@ public class MetasoundDelays : ModuleRules
     {
         PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
         
+        // ???
+        // PublicIncludePaths.Clear();
+        // PrivateIncludePaths.Clear();
+        
         PublicIncludePaths.AddRange(
             new string[] {
                 "MetasoundDelays/Public"
