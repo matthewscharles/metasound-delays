@@ -3,7 +3,7 @@
 #include "Metasound.h"
 #include "MetasoundNode.h"
 
-namespace MetasoundDelays
+namespace MetasoundEchoes
 {
     class FMetasoundTesterNode : public Metasound::FNode
     {

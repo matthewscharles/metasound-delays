@@ -1,26 +1,9 @@
 using UnrealBuildTool;
 
-public class MetasoundDelays : ModuleRules
+public class MetasoundEchoes : ModuleRules
 {
-    public MetasoundDelays(ReadOnlyTargetRules Target) : base(Target)
+    public MetasoundEchoes(ReadOnlyTargetRules Target) : base(Target)
     {
-        PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-        
-        // ???
-        // PublicIncludePaths.Clear();
-        // PrivateIncludePaths.Clear();
-        
-        PublicIncludePaths.AddRange(
-            new string[] {
-                "MetasoundDelays/Public"
-            }
-        );
-
-        PrivateIncludePaths.AddRange(
-            new string[] {
-                "MetasoundDelays/Private",
-            }
-        );
 
         PublicDependencyModuleNames.AddRange(
             new string[]

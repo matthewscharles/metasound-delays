@@ -2,7 +2,7 @@
     "FileVersion": 3,
     "version": 1,
     "VersionName": "1.0",
-    "FriendlyName": "MetasoundDelays",
+    "FriendlyName": "MetasoundEchoes",
     "Description": "Additional nodes for Unreal Engine MetaSounds.",
     "Category": "Audio",
     "CreatedBy": "Charles Matthews",
@@ -10,7 +10,7 @@
     "DocsURL": "https://github.com/matthewscharles/metasound-delays",
     "MarketplaceURL": "",
     "CanContainContent": true,
-    "IsBetaVersion": true,
+    "IsBetaVersion": false,
     "IsExperimentalVersion": false,
     "Installed": false,
     "SupportedTargetPlatforms": [
@@ -18,7 +18,7 @@
         "Mac"
     ],
     "Modules": [{
-            "Name": "MetasoundDelays",
+            "Name": "MetasoundEchoes",
             "Type": "Runtime",
             "LoadingPhase": "EarliestPossible",
             "PlatformAllowList":["Win64", "Mac"]    
